@@ -1,3 +1,6 @@
+/*---------
+Reset css
+----------*/
 * {
   margin: 0;
   padding: 0;
@@ -11,10 +14,58 @@
   font-family: "Roboto", sans-serif;
 }
 
+/*---------
+General
+----------*/
 body {
   font-size: 1.6rem;
   background-color: #f6f8f9;
 }
+
+.container {
+  width: min(80%, 100rem);
+  margin-inline: auto;
+  background-color: #fff;
+}
+
+.container-content {
+  padding-inline: 8%;
+}
+
+.button {
+  padding: 0.8rem 1.2rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+
+.button.primary {
+  background-color: transparent;
+  border: 0.2rem solid #47adf1;
+  color: #fff;
+  background-color: #47adf1;
+  transition: background 400ms ease, border 400ms ease;
+}
+
+.button.primary:hover {
+  background-color: #3682b4;
+  border: 0.2rem solid #3682b4;
+}
+
+.button.secondary {
+  background-color: transparent;
+  border: 0.2rem solid #ccc;
+  color: #ccc;
+  transition: background 300ms ease, color 300ms ease;
+}
+
+.button.button.secondary:hover {
+  background-color: #fff;
+  color: #aaa;
+}
+
+/*---------
+Header
+----------*/
 
 header {
   background-color: #fff;
@@ -29,4 +80,20 @@ header h1 {
   display: inline-block;
   font-size: 4rem;
   vertical-align: middle;
+}
+
+/*---------
+Main
+----------*/
+
+main {
+  height: 500px;
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+
+/*---Action buttons--*/
+.action {
+  border-bottom: 0.2rem solid #f6f8f9;
+  padding: 2rem 0 1.5rem 0;
 }

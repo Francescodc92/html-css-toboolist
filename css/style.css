@@ -67,6 +67,7 @@ body {
 }
 
 /*------type task colors------*/
+
 .list-element small.blue {
   background-color: #45abea;
 }
@@ -86,6 +87,16 @@ body {
   background-color: #b0c926;
 }
 
+/*------status colors------*/
+.list-element .status.done {
+  color: #69c3ae;
+  border-color: #69c3ae;
+}
+
+.list-element .status.not-done {
+  color: #ec6963;
+  border-color: #ec6963;
+}
 /*---------
 Header
 ----------*/
@@ -137,6 +148,7 @@ h3.title-task {
 }
 
 h3.title-task {
+  color: #42464f;
   display: inline-block;
   font-size: 2.4rem;
 }
@@ -146,7 +158,7 @@ h3.title-task {
 }
 
 .list-element .status {
-  border: 0.1rem solid black;
+  border: 0.2rem solid black;
   width: 3rem;
   height: 3rem;
   display: inline-block;

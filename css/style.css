@@ -22,6 +22,7 @@ body {
   background-color: #f6f8f9;
 }
 
+/*------containers--------*/
 .container {
   width: min(80%, 100rem);
   margin-inline: auto;
@@ -32,8 +33,10 @@ body {
   padding-inline: 8%;
 }
 
+/*------buttons--------*/
+
 .button {
-  padding: 0.8rem 1.2rem;
+  padding: 0.5rem 1rem;
   font-weight: 700;
   border-radius: 0.5rem;
 }
@@ -63,6 +66,26 @@ body {
   color: #aaa;
 }
 
+/*------type task colors------*/
+.list-element small.blue {
+  background-color: #45abea;
+}
+.list-element small.purple {
+  background-color: #9c72e4;
+}
+.list-element small.green {
+  background-color: #64c0a9;
+}
+.list-element small.orange {
+  background-color: #f29e33;
+}
+.list-element small.pink {
+  background-color: #d863a1;
+}
+.list-element small.light-green {
+  background-color: #b0c926;
+}
+
 /*---------
 Header
 ----------*/
@@ -87,13 +110,63 @@ Main
 ----------*/
 
 main {
-  height: 500px;
+  height: 500px; /* da eliminare */
   margin-top: 5rem;
   border-radius: 1rem;
 }
 
-/*---Action buttons--*/
-.action {
+/*-----------
+Section Action buttons
+------------*/
+section.action {
   border-bottom: 0.2rem solid #f6f8f9;
   padding: 2rem 0 1.5rem 0;
+}
+
+/*--------------
+Section task
+--------------*/
+.task {
+  margin-top: 3rem;
+}
+
+.open,
+h3.title-task {
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+
+h3.title-task {
+  display: inline-block;
+  font-size: 2.4rem;
+}
+
+.list-element {
+  margin-block: 1rem;
+}
+
+.list-element .status {
+  border: 0.1rem solid black;
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  line-height: 3rem;
+  vertical-align: middle;
+  border-radius: 50%;
+  text-align: center;
+  margin-inline: 0.5rem;
+}
+
+.list-element p {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 3rem;
+  vertical-align: middle;
+}
+
+.list-element small {
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  color: #fff;
+  background-color: #ccc;
 }

@@ -62,8 +62,8 @@ body {
 }
 
 .button.button.secondary:hover {
-  background-color: #fff;
-  color: #aaa;
+  background-color: #ccc;
+  color: #fff;
 }
 
 /*------type task colors------*/

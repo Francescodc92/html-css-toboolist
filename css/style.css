@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #f6f8f9;
+}
+
+header {
+  background-color: #fff;
+  padding: 1.5rem 1rem;
+}
+
+header img#logo {
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 4rem;
+  vertical-align: middle;
+}
